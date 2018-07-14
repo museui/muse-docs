@@ -11,6 +11,7 @@
     "algoliasearch": "^3.29.0",
     "fastclick": "^1.0.6",
     "muse-ui": "^3.0.0-rc.5",
+    "muse-ui-carbon-theme": "^0.1.0",
     "muse-ui-progress": "^0.1.0",
     "register-service-worker": "^1.0.0",
     "typeface-roboto": "^0.0.54",
