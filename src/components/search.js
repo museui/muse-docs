@@ -1,5 +1,6 @@
 import algoliasearch from 'algoliasearch';
 import algoliasearchSvg from '../assets/images/search-by-algolia.svg';
+import config from '../../key.json';
 export default {
   computed: {
     locale () {
@@ -7,7 +8,8 @@ export default {
     },
     index () {
       if (!this.locale) return;
-      const client = algoliasearch('RGHCT36SHC', 'f38ef54caaee2e01cbd18a077325dee1');
+      const { appId, apiKey } = config.algoliasearch;
+      const client = algoliasearch(appId, apiKey);
       return client.initIndex('muse-ui-' + this.locale.substring(0, 2));
     }
   },
