@@ -8,8 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "algoliasearch": "^3.29.0",
+    "fastclick": "^1.0.6",
     "muse-ui": "^3.0.0-rc.5",
+    "muse-ui-progress": "^0.1.0",
     "register-service-worker": "^1.0.0",
+    "typeface-roboto": "^0.0.54",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1"
   },
@@ -21,6 +25,10 @@
     "@vue/eslint-config-standard": "^3.0.0-rc.3",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
+    "markdown-it-anchor": "^5.0.2",
+    "markdown-it-container": "^2.0.0",
+    "transliteration": "^1.6.2",
+    "vue-markdown-loader": "^2.4.1",
     "vue-template-compiler": "^2.5.16"
   },
   "browserslist": [

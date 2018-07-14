@@ -1,10 +1,11 @@
-import 'babel-polyfill';
+// import '@babelpolyfill';
 import Vue from 'vue';
 import 'typeface-roboto';
 import './assets/font-icons/material/material-icons.css';
 import './assets/font-icons/style.css';
 import './assets/github-markdown.css';
 import './assets/atom-one-light.css';
+import 'muse-ui/dist/muse-ui.css';
 import MuseUI from 'muse-ui';
 import Progress from 'muse-ui-progress';
 import FastClick from 'fastclick';

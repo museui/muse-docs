@@ -1,4 +1,4 @@
-import packageJson from '../../../package.json';
+import MuseUI from 'muse-ui';
 import navConfig from '../configs/nav';
 
 export default {
@@ -9,7 +9,7 @@ export default {
   },
   data () {
     return {
-      version: packageJson.version
+      version: MuseUI.version
     };
   },
   computed: {
