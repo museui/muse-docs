@@ -15,6 +15,7 @@ import ColorPalette from './components/color-palette';
 import DemoBlock from './components/demo-block';
 import router from './router';
 import { changeLocale } from './locale';
+import './registerServiceWorker';
 Vue.use(MuseUI);
 Vue.use(Progress, {
   color: 'secondary'
