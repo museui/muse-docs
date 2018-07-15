@@ -34,7 +34,6 @@ export default {
       return new Promise((resolve, reject) => {
         this.index.search({ query: text, hitsPerPage: 8 }, (err, res) => {
           if (err) {
-            console.error(err);
             return;
           }
           this.data = res.hits.map(hit => {
