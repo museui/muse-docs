@@ -1,7 +1,6 @@
 <template>
 <div>
   <div class="mu-banner">
-    <img src="../../assets/images/bg.png" width="100%" height="100%" class="mu-banner-image">
     <div class="mu-logo">
       <img src="../../assets/images/icon_logo.png" alt="">
     </div>
@@ -123,7 +122,7 @@ export default {
   align-items: center;
   position: relative;
   color: @alternateTextColor;
-  background-color: @primaryColor;
+  background-image: linear-gradient(270deg,#8146b4,#6990f6);
 }
 .mu-banner-image {
   position: absolute;

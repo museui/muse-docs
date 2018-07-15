@@ -1,14 +1,11 @@
 <template>
   <div id="app">
     <app-nav-drawer v-if="locale" :open.sync="open" :docked="docked" :home="home"/>
-    <mu-appbar v-if="locale" :color="home ? 'transparent' : 'primary'" class="mu-appbar-header" style="z-index: 101;" :class="{'is-open': (!home && open && docked), 'is-only-title': !(home || !docked)}" :z-depth="home ? 0 : 4">
+    <mu-appbar v-if="locale" :color="home ? 'transparent' : 'primary'" class="mu-appbar-header" style="z-index: 101;" :class="{'is-open': (!home && open && docked), 'is-only-title': !(home || !docked), 'home-bg': home}" :z-depth="home ? 0 : 4">
       <mu-button v-if="home || !docked" icon slot="left" @click="toggleMenu">
         <mu-icon size="24" value="menu"/>
       </mu-button>
       {{pageName || ''}}
-      <mu-fade-transition>
-        <img src="./assets/images/bg.png" v-if="home" width="100%" height="500" class="mu-banner-image">
-      </mu-fade-transition>
       <mu-search  v-if="!isMobile"  slot="right" />
       <mu-menu slot="right" open-on-hover :open.sync="activeMenu" placement="bottom-end">
         <mu-button flat>
@@ -228,6 +225,9 @@ function isMobile () {
     .mu-appbar-title {
       margin-left: 16px;
     }
+  }
+  &.home-bg {
+    background-image: linear-gradient(270deg,#8146b4,#6990f6);
   }
 }
 .app-content {
