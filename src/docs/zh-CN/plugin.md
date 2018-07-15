@@ -1,6 +1,6 @@
 # 插件
 
-Muse-UI 是一个 Vue UI 组件库，Muse-UI 只提供 UI 组件，但是，在实际开发中，我们需要一些其它的功能，像是可以快捷调用的消息提示或者loading函数，或者扩展 Muse-UI 原本的主题。
+Muse-UI 是一个 Vue UI 组件库，只提供 UI 组件，但是，在实际开发中，我们需要一些其它的功能，像是可以快捷调用的消息提示或者loading函数，或者扩展 Muse-UI 原本的主题。
 
 目前我们提供 [muse-ui-plugin-template](https://github.com/museui/muse-ui-plugin-template) 用于创建一个新的 Muse-UI 插件。
 
