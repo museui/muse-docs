@@ -4766,9 +4766,21 @@ muse-ui-carbon-theme@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/muse-ui-carbon-theme/-/muse-ui-carbon-theme-0.1.0.tgz#b54157a81c710174f931d14c1d27139a6285bfe9"
 
+muse-ui-loading@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/muse-ui-loading/-/muse-ui-loading-0.2.0.tgz#a5ab50617b66314ef2490dc0703f694c255673ee"
+
+muse-ui-message@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/muse-ui-message/-/muse-ui-message-0.2.0.tgz#1b6f4999b93238fc897d1d5a3ebcf52f4c729d6c"
+
 muse-ui-progress@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/muse-ui-progress/-/muse-ui-progress-0.1.0.tgz#dc61e6cbc68e3e4d2eb8e93ba330df22df01c9f5"
+
+muse-ui-toast@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/muse-ui-toast/-/muse-ui-toast-0.3.0.tgz#572bc6c250579c3d6f4dafc8535e631c401b8db0"
 
 muse-ui@^3.0.0-rc.5:
   version "3.0.0-rc.5"

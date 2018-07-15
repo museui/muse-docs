@@ -53,6 +53,22 @@ export default {
       path: '/ripple'
     }]
   }, {
+    name: '插件',
+    icon: '',
+    children: [{
+      name: 'Toast',
+      path: '/toast'
+    }, {
+      name: 'Message',
+      path: '/message'
+    }, {
+      name: 'Loading',
+      path: '/loading'
+    }, {
+      name: 'NProgress',
+      path: '/nprogress'
+    }]
+  }, {
     name: '组件',
     icon: 'dashboard',
     children: [{

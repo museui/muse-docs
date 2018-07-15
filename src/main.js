@@ -8,6 +8,9 @@ import './assets/atom-one-light.css';
 import 'muse-ui/dist/muse-ui.css';
 import MuseUI from 'muse-ui';
 import Progress from 'muse-ui-progress';
+import Toast from 'muse-ui-toast';
+import Message from 'muse-ui-message';
+import Loading from 'muse-ui-loading';
 import FastClick from 'fastclick';
 import './theme.js';
 import App from './App';
@@ -20,6 +23,9 @@ Vue.use(MuseUI);
 Vue.use(Progress, {
   color: 'secondary'
 });
+Vue.use(Toast);
+Vue.use(Message);
+Vue.use(Loading);
 Vue.component(ColorPalette.name, ColorPalette);
 Vue.component(DemoBlock.name, DemoBlock);
 Vue.config.productionTip = false;
