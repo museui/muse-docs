@@ -56,6 +56,9 @@ export default {
     name: '插件',
     icon: '',
     children: [{
+      name: 'Plugin',
+      path: '/plugin'
+    }, {
       name: 'Toast',
       path: '/toast'
     }, {
