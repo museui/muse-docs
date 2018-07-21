@@ -42,7 +42,7 @@ export default {
 <mu-container>
   <mu-row gutter>
     <mu-col span="12" lg="4" sm="6">
-      <mu-date-input  icon="today" icon="today" v-model="value4" label="popover 显示" label-float full-width></mu-date-input>
+      <mu-date-input  icon="today" v-model="value4" label="popover 显示" label-float full-width></mu-date-input>
     </mu-col>
     <mu-col span="12" lg="4" sm="6">
       <mu-date-input  icon="today" v-model="value5" label="对话框显示" container="dialog" label-float full-width></mu-date-input>
