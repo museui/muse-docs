@@ -4782,9 +4782,9 @@ muse-ui-toast@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/muse-ui-toast/-/muse-ui-toast-0.3.0.tgz#572bc6c250579c3d6f4dafc8535e631c401b8db0"
 
-muse-ui@^3.0.0-rc.5:
-  version "3.0.0-rc.5"
-  resolved "https://registry.yarnpkg.com/muse-ui/-/muse-ui-3.0.0-rc.5.tgz#fe58b08ec8cef485ef6f040c564393372e13042f"
+muse-ui@^3.0.0-rc.6:
+  version "3.0.0-rc.6"
+  resolved "https://registry.yarnpkg.com/muse-ui/-/muse-ui-3.0.0-rc.6.tgz#23987dd5d2a0c38696bd0f74eff6c80b5d93f022"
   dependencies:
     body-scroll-lock "^2.4.6"
     dayjs "^1.6.5"

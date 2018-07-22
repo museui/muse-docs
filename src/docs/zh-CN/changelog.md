@@ -4,6 +4,15 @@
   <mu-step active>
     <mu-step-label>
       <mu-icon value="panorama_fish_eye" color="primary" slot="icon"></mu-icon>
+      <span class="version-title">3.0.0-rc.6</span>
+    </mu-step-label>
+    <mu-step-content >
+      <v3-0-0-rc6></v3-0-0-rc6>
+    </mu-step-content>
+  </mu-step>
+  <mu-step active>
+    <mu-step-label>
+      <mu-icon value="panorama_fish_eye" color="primary" slot="icon"></mu-icon>
       <span class="version-title">3.0.0-rc.5</span>
     </mu-step-label>
     <mu-step-content >
@@ -100,6 +109,7 @@ import V3Rc1 from './version/3.0.0-rc.1.md';
 import V3Rc3 from './version/3.0.0-rc.3.md';
 import V3Rc4 from './version/3.0.0-rc.4.md';
 import V3Rc5 from './version/3.0.0-rc.5.md';
+import V3Rc6 from './version/3.0.0-rc.6.md';
 
 export default {
   components: {
@@ -111,7 +121,8 @@ export default {
     'v3-0-0-rc1': V3Rc1,
     'v3-0-0-rc3': V3Rc3,
     'v3-0-0-rc4': V3Rc4,
-    'v3-0-0-rc5': V3Rc5
+    'v3-0-0-rc5': V3Rc5,
+    'v3-0-0-rc6': V3Rc6
   }
 }
 </script>
