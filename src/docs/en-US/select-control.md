@@ -96,7 +96,7 @@ export default {
 ```
 :::
 
-## Raido
+## Radio
 
 :::demo
 ```html
