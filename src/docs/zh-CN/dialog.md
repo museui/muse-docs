@@ -182,6 +182,7 @@ export default {
 | width | dialog 宽度，默认是 `auto`  | String,Number | — | — |
 | max-width | dialog 最大宽度 | String,Number | — | — |
 | scrollable | 是否可以内部滚动 | Boolean | false | false |
+| padding | 设置了scrollable之后，对话框距离底部和顶部的值 | Number | - | 64 |
 | fullscreen | 是否是全屏 | Boolean | false | false |
 | transition | 过渡动画方案 | String | slide-top/slide-bottom/slide-left/slide-right/fade/scale | scale |
 | dialog-class | dialog 样式 | String | — | — |

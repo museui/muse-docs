@@ -325,6 +325,7 @@ export default {
 |------|------|------|------|------|
 | label | 选项的标签 | String | — | — |
 | value | 选项的值 | — | — | — |
+| search-text | 用于搜索的值，默认使用`label` 来搜索 | String | - | - |
 | ripple | 点击是否有波纹效果 | Boolean | — | false |
 | avatar | 选项内容中是否有头像，会根据此参数调整列表项高度 | Boolean | — | false |
 | disabled | 选项是否被禁用 | Boolean | — | false |

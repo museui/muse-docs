@@ -10,7 +10,7 @@
   "dependencies": {
     "algoliasearch": "^3.29.0",
     "fastclick": "^1.0.6",
-    "muse-ui": "^3.0.0-rc.7",
+    "muse-ui": "^3.0.0",
     "muse-ui-carbon-theme": "^0.1.0",
     "muse-ui-loading": "^0.2.0",
     "muse-ui-message": "^0.2.0",
