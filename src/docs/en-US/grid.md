@@ -1,6 +1,6 @@
 # Grid layout
 
-Muse-ui uses the [Bootstrap 4.0] (https://getbootstrap.com/docs/4.0/layout/grid/) grid system to move the end-priority principle, based on the Flex box layout design of the grid layout.
+Muse-ui uses the [Bootstrap 4.0](https://getbootstrap.com/docs/4.0/layout/grid/) grid system to move the end-priority principle, based on the Flex box layout design of the grid layout.
 
 ## Basic layout
 

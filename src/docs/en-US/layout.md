@@ -22,7 +22,7 @@
 </style>
 # Layout
 
-Muse-UI provides the layout component `mu-flex` based on [Flexible Box] (https://developer.mozilla.org/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).
+Muse-UI provides the layout component `mu-flex` based on [Flexible Box](https://developer.mozilla.org/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes).
 
 ## Example
 

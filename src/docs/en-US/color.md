@@ -1,6 +1,6 @@
 # Color
 
-The `color` or `*-color` attributes of all components in the Muse-UI can be used `primary`, `secondary`, `success`, `warning`, `info`, `error`, or [Material Design] (https://material.io/) All the color names in the  specification.
+The `color` or `*-color` attributes of all components in the Muse-UI can be used `primary`, `secondary`, `success`, `warning`, `info`, `error`, or [Material Design](https://material.io/) All the color names in the  specification.
 
 ## Using color in components
 
@@ -20,7 +20,7 @@ The `color` or `*-color` attributes of all components in the Muse-UI can be used
 
 ## Use class Color
 
-The Muse-UI Color class that defines all the colors in the [Material Design] (https://material.io/) specification.
+The Muse-UI Color class that defines all the colors in the [Material Design](https://material.io/) specification.
 
 ```javascript
 import theme from 'muse-ui/lib/theme';
