@@ -13,7 +13,7 @@
 </style>
 # Icon
 
-`Muse-ui` recommends using Google's Material font icon Library, and for a list of all available icons, please visit the official [Material Icons] (https://material.io/icons/) page.
+`Muse-ui` recommends using Google's Material font icon Library, and for a list of all available icons, please visit the official [Material Icons](https://material.io/icons/) page.
 
 ## Example
 

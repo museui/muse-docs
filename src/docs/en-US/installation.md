@@ -1,7 +1,7 @@
 # Installation
 
 ## npm Installation
-Recommended for `npm` installation for better, and use with packaging tools ([Webpack] (https://webpack.js.org/))
+Recommended for `npm` installation for better, and use with packaging tools ([Webpack](https://webpack.js.org/))
 
 ```bash
 npm i muse-ui -S
@@ -26,7 +26,7 @@ Currently, you can get the latest version of the resource through [unpkg.com/mus
 
 ## Font Icons
 
-`Muse-UI` recommends to use the [Material design Icons] (https://material.io/icons/), which requires the introduction of a font icon library from a CDN.
+`Muse-UI` recommends to use the [Material design Icons](https://material.io/icons/), which requires the introduction of a font icon library from a CDN.
 
 ```html
 <link rel="stylesheet" href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.css">
