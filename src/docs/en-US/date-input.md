@@ -282,6 +282,12 @@ export default {
 | append | input box post content |
 | default | - |
 
+## Date Picker Scoped Slots
+
+| Name | Description | Parameters |
+|------|------|------|
+| day | day button content | { date, selected, disabled, now } |
+
 <script>
 const dayAbbreviation = ['S', 'M', 'T', 'W', 'T', 'F', 'S']
 const dayList = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']

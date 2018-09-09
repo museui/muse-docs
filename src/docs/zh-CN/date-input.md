@@ -281,6 +281,12 @@ export default {
 | append | 输入框后置内容 |
 | default | - |
 
+## Date Input Scoped Slots
+
+| 名称 | 介绍 | 参数 |
+|------|------|------|
+| day | 每个日期显示内容 | { date, selected, disabled, now } |
+
 <script>
 const dayAbbreviation = ['S', 'M', 'T', 'W', 'T', 'F', 'S']
 const dayList = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']

@@ -70,6 +70,7 @@ export default {
 | overlay-opacity | 遮盖层的透明度 | Boolean | — | 0.4 |
 | overlay-color | 遮盖层的颜色 | String | — | #000 |
 | esc-press-close | 按下 `esc` 键是否可以关闭 | Boolean | — | true |
+| lock-scroll | 是否在 BottomSheet 出现时将 body 滚动锁定 | - | true |
 | append-body | 弹出层是否添加到 body 元素后, 内部使用 | Boolean | — | true |
 
 ## Bottom Sheet Events

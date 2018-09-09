@@ -1469,9 +1469,9 @@ body-parser@1.18.2:
     raw-body "2.3.2"
     type-is "~1.6.15"
 
-body-scroll-lock@^2.4.6:
-  version "2.4.6"
-  resolved "https://registry.yarnpkg.com/body-scroll-lock/-/body-scroll-lock-2.4.6.tgz#3ab8f6aff309cc5ce5ad7702f58308f755e262f3"
+body-scroll-lock@^2.5.7:
+  version "2.5.7"
+  resolved "https://registry.yarnpkg.com/body-scroll-lock/-/body-scroll-lock-2.5.7.tgz#2a3ffc87ef3aa3954ba44073625e5318117cf968"
 
 bonjour@^3.5.0:
   version "3.5.0"
@@ -4782,11 +4782,11 @@ muse-ui-toast@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/muse-ui-toast/-/muse-ui-toast-0.3.0.tgz#572bc6c250579c3d6f4dafc8535e631c401b8db0"
 
-muse-ui@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/muse-ui/-/muse-ui-3.0.0.tgz#903d78c9520c132f88440465e85b74e72722e7f8"
+muse-ui@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/muse-ui/-/muse-ui-3.0.1.tgz#6c22cc424f3573b7c8ddcc5a662d40f2e4c8caea"
   dependencies:
-    body-scroll-lock "^2.4.6"
+    body-scroll-lock "^2.5.7"
     dayjs "^1.6.5"
     keycode "^2.1.9"
     normalize-wheel "^1.0.1"

@@ -70,6 +70,7 @@ export default {
 | overlay-opacity | overlayer opacity | Boolean | — | 0.4 |
 | overlay-color | overlayer color | String | — | #000 |
 | esc-press-close | whether to close when pressing the `ESC` key | Boolean | — | true |
+| lock-scroll | whether scroll of body is disabled while BottomSheet is displayed | - | true |
 | append-body | whether the popup layer is added to the body element and used internally | Boolean | — | true |
 
 ## Bottom Sheet Events

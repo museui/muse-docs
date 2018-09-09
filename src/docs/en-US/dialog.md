@@ -190,6 +190,7 @@ export default {
 | overlay-opacity | overlay opacity | Boolean | — | 0.4 |
 | overlay-color | overlay color | String | — | #000 |
 | esc-press-close | press `ESC` whether the overlay can be close | Boolean | — | true |
+| lock-scroll | whether scroll of body is disabled while Dialog is displayed | - | true |
 | append-body | whether the overlay is added to the body element, internal use | Boolean | — | true |
 
 ## Dialog Events
