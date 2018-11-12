@@ -82,6 +82,11 @@ export default {
     return {
       date3: undefined
     };
+  },
+  methods: {
+    allowedDates (date) {
+      return date.getDate() % 2 === 0
+    }
   }
 }
 </script>
