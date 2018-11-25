@@ -158,7 +158,7 @@ export default {
       return date.getDay() === 0 || date.getDay() === 6
     },
     allowedDates (date) {
-      return date.getDate() % 2 === 0
+      return date.getDate() % 2 !== 0
     }
   }
 };
@@ -354,7 +354,7 @@ export default {
       return date.getDay() === 0 || date.getDay() === 6
     },
     allowedDates (date) {
-      return date.getDate() % 2 === 0
+      return date.getDate() % 2 !== 0
     }
   }
 };
