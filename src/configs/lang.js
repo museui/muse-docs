@@ -5,5 +5,5 @@ export default [{
 }, {
   lang: 'en-US',
   desc: 'English',
-  img: (size) => `http://www.countryflags.io/US/flat/${size}.png`
+  img: (size) => `https://www.countryflags.io/US/flat/${size}.png`
 }];
