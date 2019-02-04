@@ -329,4 +329,16 @@ function isMobile () {
     max-width: 960px;
   }
 }
+
+.mu-pagination>ul {
+  margin-bottom: 0 !important;
+}
+
+.mu-ripple-wrapper {
+  border-radius: inherit !important;
+  contain: strict;
+}
+.mu-button::before {
+  content: none !important;
+}
 </style>

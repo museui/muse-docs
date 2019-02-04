@@ -1469,9 +1469,10 @@ body-parser@1.18.2:
     raw-body "2.3.2"
     type-is "~1.6.15"
 
-body-scroll-lock@^2.5.7:
-  version "2.5.7"
-  resolved "https://registry.yarnpkg.com/body-scroll-lock/-/body-scroll-lock-2.5.7.tgz#2a3ffc87ef3aa3954ba44073625e5318117cf968"
+body-scroll-lock@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/body-scroll-lock/-/body-scroll-lock-2.6.1.tgz#3782ff37404886faaee366968ceee40c3964d8f2"
+  integrity sha512-fsDsq10+BJrk/+eGADqxspyZpGiKSh3dK8ByE6KuDK0REmPB99U05p1t9xVTAM9J6j9PJGm6W/W+HsCPnOFj+Q==
 
 bonjour@^3.5.0:
   version "3.5.0"
@@ -2272,9 +2273,10 @@ date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
 
-dayjs@^1.6.5:
-  version "1.7.4"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.7.4.tgz#6001277372aec83021943157fa279ecf2b5f5cf8"
+dayjs@^1.8.2:
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.2.tgz#8668e50c1e048e1b1638ebe6c3552187a34ffa64"
+  integrity sha512-iHNxe5kIbxmPgzJFjks9TFMokOu3TQcUUSagb/Ff7GZNi7ulYF0qaAZ61trZEFOONgrp4jvKVpBJ86qy4UsSoA==
 
 de-indent@^1.0.2:
   version "1.0.2"
@@ -4782,12 +4784,13 @@ muse-ui-toast@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/muse-ui-toast/-/muse-ui-toast-0.3.0.tgz#572bc6c250579c3d6f4dafc8535e631c401b8db0"
 
-muse-ui@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/muse-ui/-/muse-ui-3.0.1.tgz#6c22cc424f3573b7c8ddcc5a662d40f2e4c8caea"
+muse-ui@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/muse-ui/-/muse-ui-3.0.2.tgz#f292e8a063d625d35b1dce1b1504bc0cccd78e65"
+  integrity sha512-oIH8wEKQqXA6xbb3HzprxC2xoF7P8G01uvF+Jhs6VtbxQjO7VVkKKFu2Mb2NmhX3mMU2EBCgE8wlTU29ffjkPA==
   dependencies:
-    body-scroll-lock "^2.5.7"
-    dayjs "^1.6.5"
+    body-scroll-lock "^2.6.1"
+    dayjs "^1.8.2"
     keycode "^2.1.9"
     normalize-wheel "^1.0.1"
     resize-observer-polyfill "^1.5.0"
