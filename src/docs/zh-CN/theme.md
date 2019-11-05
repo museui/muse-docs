@@ -44,7 +44,7 @@ theme.use('teal');
   track: '#bdbdbd',
   text: {
     primary: 'rgba(0, 0, 0, 0.87)',
-    secondary: 'gba(0, 0, 0, 0.54)',
+    secondary: 'rgba(0, 0, 0, 0.54)',
     alternate: '#fff',
     disabled: 'rgba(0, 0, 0, 0.38)',
     hint: 'rgba(0, 0, 0, 0.38)' // 提示文字颜色
