@@ -14,7 +14,7 @@
   <mu-button color="info">Info</mu-button>
   <mu-button color="error">Error</mu-button>
   <mu-button disabled>disabled</mu-button>
-<mu-container>
+</mu-container>
 <style lang="less">
 .button-wrapper {
   text-align: center;
@@ -39,7 +39,7 @@
   <mu-button flat color="success">Success</mu-button>
   <mu-button flat color="warning">Warning</mu-button>
   <mu-button flat disabled>disabled</mu-button>
-<mu-container>
+</mu-container>
 <style lang="less">
 .button-wrapper {
   text-align: center;
@@ -146,7 +146,7 @@
   <mu-button large fab color="purple">
     <mu-icon value="thumb_up"></mu-icon>
   </mu-button>
-<mu-container>
+</mu-container>
   <style lang="less">
 .button-wrapper {
   text-align: center;
