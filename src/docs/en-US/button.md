@@ -14,7 +14,7 @@ The `mu-button` button component can be customized with a different color or ico
   <mu-button color="info">Info</mu-button>
   <mu-button color="error">Error</mu-button>
   <mu-button disabled>disabled</mu-button>
-<mu-container>
+</mu-container>
 <style lang="less">
 .button-wrapper {
   text-align: center;
@@ -39,7 +39,7 @@ Used for common functionality and reduced tiering on the screen to make it more 
   <mu-button flat color="success">Success</mu-button>
   <mu-button flat color="warning">Warning</mu-button>
   <mu-button flat disabled>disabled</mu-button>
-<mu-container>
+</mu-container>
 <style lang="less">
 .button-wrapper {
   text-align: center;
@@ -108,7 +108,7 @@ The icon can be used as the main content of the button, or it can be displayed w
       <mu-icon right value="send"></mu-icon>
     </mu-button>
   </div>
-<mu-container>
+</mu-container>
 <style lang="less">
 .button-wrapper {
   text-align: center;
@@ -146,7 +146,7 @@ The floating button is rounded and usually contains an icon.
   <mu-button large fab color="purple">
     <mu-icon value="thumb_up"></mu-icon>
   </mu-button>
-<mu-container>
+</mu-container>
   <style lang="less">
 .button-wrapper {
   text-align: center;
