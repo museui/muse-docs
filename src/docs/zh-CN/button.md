@@ -108,7 +108,7 @@
       <mu-icon right value="send"></mu-icon>
     </mu-button>
   </div>
-<mu-container>
+</mu-container>
 <style lang="less">
 .button-wrapper {
   text-align: center;
