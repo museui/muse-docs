@@ -254,7 +254,7 @@ Button can be set in defferent size，`small`、`normal`、`large`。
 | exact-active-class | Configure the class that should be activated when the link is exactly matched. Note The default values can also be configured globally through the routing constructor option Linkexactactiveclass. | String | — | router-link-exact-active |
 | append | When the `append` property is set, the base path is added before the current (relative) path. For example, we navigate from `/a` to a relative path b, if no append is configured, the path is `/b`, and if it is `/a/b` | Boolean | — | false |
 | replace | Setting the `replace` property, when clicked, will call `router.replace()` instead of `router.push()`, so the navigation will not leave the history record. | Boolean | — | false |
-
+``` less
 <style lang="less">
 .button-wrapper {
   text-align: center;
@@ -267,3 +267,4 @@ Button can be set in defferent size，`small`、`normal`、`large`。
   }
 }
 </style>
+```
