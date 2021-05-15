@@ -14,7 +14,7 @@
   <mu-button color="info">Info</mu-button>
   <mu-button color="error">Error</mu-button>
   <mu-button disabled>disabled</mu-button>
-<mu-container>
+</mu-container>
 <style lang="less">
 .button-wrapper {
   text-align: center;
@@ -39,7 +39,7 @@
   <mu-button flat color="success">Success</mu-button>
   <mu-button flat color="warning">Warning</mu-button>
   <mu-button flat disabled>disabled</mu-button>
-<mu-container>
+</mu-container>
 <style lang="less">
 .button-wrapper {
   text-align: center;
@@ -108,7 +108,7 @@
       <mu-icon right value="send"></mu-icon>
     </mu-button>
   </div>
-<mu-container>
+</mu-container>
 <style lang="less">
 .button-wrapper {
   text-align: center;
@@ -146,7 +146,7 @@
   <mu-button large fab color="purple">
     <mu-icon value="thumb_up"></mu-icon>
   </mu-button>
-<mu-container>
+</mu-container>
   <style lang="less">
 .button-wrapper {
   text-align: center;
@@ -255,15 +255,3 @@
 | append | 设置 `append` 属性后，则在当前（相对）路径前添加基路径。例如，我们从 `/a` 导航到一个相对路径 b，如果没有配置 append，则路径为 /b，如果配了，则为 /a/b | Boolean | — | false |
 | replace | 设置 `replace` 属性的话，当点击时，会调用 `router.replace()` 而不是 `router.push()`，于是导航后不会留下 history 记录。 | Boolean | — | false |
 
-<style lang="less">
-.button-wrapper {
-  text-align: center;
-  .mu-button{
-    margin: 8px;
-    vertical-align: middle;
-  }
-  a.mu-button {
-    text-decoration: none;
-  }
-}
-</style>

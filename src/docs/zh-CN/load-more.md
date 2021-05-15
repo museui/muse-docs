@@ -22,10 +22,10 @@
     <mu-load-more @refresh="refresh" :refreshing="refreshing" :loading="loading" @load="load">
       <mu-list>
         <template v-for="i in num">
-          <mu-list-item>
+          <mu-list-item :key="i+num">
             <mu-list-item-title>{{text}} Item {{i}}</mu-list-item-title>
           </mu-list-item>
-          <mu-divider />
+          <mu-divider :key="i"/>
         </template>
       </mu-list>
     </mu-load-more>
